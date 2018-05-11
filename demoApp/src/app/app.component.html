@@ -1,0 +1,35 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  
+  </div>
+  <h3><a href="" routerLink="templateDriven" routerLinkActive="active">Template Driven From</a></h3>
+  <h3><a href="" routerLink="modelDriven" routerLinkActive="active">Model Driven Form</a></h3>
+<!-- <h1 *ngIf="displayName; then thenBlock; else elseBlock"></h1>
+  <ng-template #thenBlock>
+    <h1>Condition true</h1>
+  </ng-template>
+  <ng-template #elseBlock>
+    <h1>Condition false</h1>
+  </ng-template> -->
+
+  <!-- <div [ngSwitch] = "color">
+    <div *ngSwitchCase="'black'" [style.color]="color"> You picked black color</div>
+    <div *ngSwitchCase="'blue'" [style.color]="color"> You picked blue color</div>
+    <div *ngSwitchCase="'yellow'" [style.color]="color"> You picked yellow color</div>
+    <div *ngSwitchCase="'red'" [style.color]="color"> You picked red color</div>
+<div *ngSwitchDefault>pick again</div>
+  </div> -->
+
+  <!-- <div *ngFor="let color of colors">
+    <h3 [style.color]="color">{{color}}</h3>
+  </div> -->
+<!-- <h2 *ngIf="displayName; else elseBlockg">ponmuthu</h2>
+<ng-template #elseBlockg>
+  <h2>name is hidden</h2>
+</ng-template> -->
+<!-- <app-model-driven></app-model-driven> -->
+
+<router-outlet></router-outlet>

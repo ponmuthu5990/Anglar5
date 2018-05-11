@@ -1,0 +1,15 @@
+<h1 style="text-align: center">Template Driven Form</h1>
+<form action="" class="container" #userForm = "ngForm" (ngSubmit)="onSubmit(userForm.value)">
+<input type="text" name="firstname" placeholder="firstname" ngModel>
+<br><br>
+<input type="text" name="lastname" placeholder="lastname" ngModel>
+<br><br>
+<select name="languages" id="" ngModel>
+  <option value="Angular Js">Angular Js</option>
+  <option value="Angular 2">Angular 2</option>
+  <option value="Angular 4">Angular 4</option>
+  <option value="Angular 5">Angular 5</option>
+</select>
+<br><br>
+<input type="submit" value="Submit">
+</form>

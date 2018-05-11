@@ -1,0 +1,15 @@
+<h1 style="text-align: center">Model Driven Form</h1>
+<form action="" class="container" [formGroup] = "form" (ngSubmit)="onSubmit(form.value)">
+  <input type="text" name="firstname" placeholder="firstname" formControlName="firstname">
+  <br><br>
+  <input type="text" name="lastname" placeholder="lastname" formControlName="lastname">
+  <br><br>
+  <select name="languages" id="" formControlName="languages">
+    <option value="Angular Js">Angular Js</option>
+    <option value="Angular 2">Angular 2</option>
+    <option value="Angular 4">Angular 4</option>
+    <option value="Angular 5">Angular 5</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+  </form>
